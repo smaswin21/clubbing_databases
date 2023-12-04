@@ -37,6 +37,7 @@ The project is open to future enhancements to enrich the user experience:
 - pip
 - virtualenv
 - MongoDB
+- BeautifulSoup (Web-Scraping)
 
 ### Step-by-Step Installation
 
@@ -89,19 +90,20 @@ This will initiate the web scraping process and populate the database with the l
 
 ## 📁 Project Structure
 
-databases_project/
+ddatabases_project/
 ├── Clubs_Scraping/
-│ ├── Various HTML files for club data
+│   ├── Various HTML files for club data
 ├── project/
-│ ├── clubbing/
-│ │ ├── models.py
-│ │ ├── views.py
-│ │ ├── ...
-│ ├── manage.py
-│ ├── ...
+│   ├── clubbing/
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── ...
+│   ├── manage.py
+│   ├── ...
 ├── scrapingMadrid.py
 ├── scrapingNightlife.py
 └── segovia.sql
+
 
 ## 👥 Contributing
 Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request.
