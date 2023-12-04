@@ -53,36 +53,36 @@ The project is open to future enhancements to enrich the user experience:
 
 3. **Install Virtual Environment**:
 
-pip install virtualenv
+   pip install virtualenv
 
-virtualenv venv
+   virtualenv venv
 
-Windows
+   Windows
 
-venv\Scripts\activate
+   venv\Scripts\activate
 
-MacOS
+   MacOS
 
-source venv/bin/activate
+   source venv/bin/activate
 
 
 4. **Install Required Packages**:
 
-pip install wheel
-
-pip install django
-
-pip install mysqlclient
+   pip install wheel
+   
+   pip install django
+   
+   pip install mysqlclient
 
 5. **Create Database Tables**:
 
-python manage.py makemigrations
-
-python manage.py migrate
+   python manage.py makemigrations
+   
+   python manage.py migrate
 
 6. **Run the Server**:
 
-python manage.py runserver
+   python manage.py runserver
 
 Now, you should be able to access the application at `http://localhost:8000`.
 
@@ -90,7 +90,7 @@ This will initiate the web scraping process and populate the database with the l
 
 ## 📁 Project Structure
 
-ddatabases_project/
+databases_project/
 ├── Clubs_Scraping/
 │   ├── Various HTML files for club data
 ├── project/
@@ -103,6 +103,7 @@ ddatabases_project/
 ├── scrapingMadrid.py
 ├── scrapingNightlife.py
 └── segovia.sql
+
 
 
 ## 👥 Contributing
