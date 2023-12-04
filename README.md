@@ -72,18 +72,19 @@ The project is open to future enhancements to enrich the user experience:
 
    pip install django
 
-   
    pip install django
    
    pip install mysqlclient
 
-5. **Create Database Tables**:
+   pip install BeautifulSoup4
+
+6. **Create Database Tables**:
 
    python manage.py makemigrations
 
    python manage.py migrate
 
-6. **Run the Server**:
+7. **Run the Server**:
 
 
    python manage.py runserver 
