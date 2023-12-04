@@ -129,6 +129,13 @@ This section includes images for our project.
 <img width="1502" alt="Screenshot 2023-12-04 at 22 45 10" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/f7d463db-cf8c-47f6-85a9-234ce310674e">
 
 
+## 📁 Scraped Resources
+
+https://www.esmadrid.com/en/madrid-nightlife
+
+https://nightlifemadrid.com/
+
+
 ## 👥 Contributing
 Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request.
 
