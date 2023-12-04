@@ -117,6 +117,14 @@ databases_project/
 
 This section includes images for our project.
 
+<img width="1505" alt="Screenshot 2023-12-04 at 23 11 23" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/b92b0c35-2a52-44e8-a587-1795096e6f47">
+
+<img width="1189" alt="Screenshot 2023-12-04 at 23 11 09" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/6f4328e8-982c-47ef-941e-9298f7dd788b">
+
+<img width="1194" alt="Screenshot 2023-12-04 at 22 45 22" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/cc3e23e9-e2f9-4a1c-a7a7-c17698cd89f8">
+
+<img width="1502" alt="Screenshot 2023-12-04 at 22 45 10" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/f7d463db-cf8c-47f6-85a9-234ce310674e">
+
 
 ## 👥 Contributing
 Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request.
