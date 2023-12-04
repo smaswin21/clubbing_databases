@@ -37,6 +37,7 @@ The project is open to future enhancements to enrich the user experience:
 - pip
 - virtualenv
 - MongoDB
+- BeautifulSoup (Web-Scraping)
 
 ### Step-by-Step Installation
 
@@ -56,11 +57,11 @@ The project is open to future enhancements to enrich the user experience:
 
    virtualenv venv
 
-Windows
+   Windows
 
    venv\Scripts\activate
 
-MacOS
+   MacOS
 
    source venv/bin/activate
 
@@ -68,20 +69,34 @@ MacOS
 4. **Install Required Packages**:
 
    pip install wheel
+<<<<<<< HEAD
 
    pip install django
 
+=======
+   
+   pip install django
+   
+>>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
    pip install mysqlclient
 
 5. **Create Database Tables**:
 
    python manage.py makemigrations
+<<<<<<< HEAD
 
+=======
+   
+>>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
    python manage.py migrate
 
 6. **Run the Server**:
 
+<<<<<<< HEAD
    python manage.py runserver 
+=======
+   python manage.py runserver
+>>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
 
 Now, you should be able to access the application at `http://localhost:8000`.
 
@@ -106,6 +121,7 @@ databases_project/
 └── segovia.sql
 
 
+<<<<<<< HEAD
 ## 🚀 Usage
 
 This section includes images for our project.
@@ -117,7 +133,8 @@ Example:
 ![Django Administration Clubs](images/Clubs.png "Django Admin Clubs Page")
 ![Terminal Output](images/Django.png "Terminal Output")
 
-
+=======
+>>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
 ## 👥 Contributing
 Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request.
 
