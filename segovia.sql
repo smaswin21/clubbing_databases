@@ -1,3 +1,4 @@
+-- our database name is yoyo
 use yoyo;
 
 INSERT INTO clubbing_club (city_id, name, address, contact_info, type)
