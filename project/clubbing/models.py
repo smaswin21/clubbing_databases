@@ -9,7 +9,6 @@ class City(models.Model):
     def __str__(self):
         return self.city_name
 
-
 # Club Model
 class Club(models.Model):
     city = models.ForeignKey(City, on_delete=models.CASCADE)
@@ -47,7 +46,7 @@ class UserProfile(models.Model):
     def __str__(self):
         return self.user.username
 
-""" 
+"""
 
 This code defines a model named UserProfile to represent user profiles in the application. 
 The user field is a one-to-one relationship that references the 
@@ -56,7 +55,6 @@ This means that each user can have one and only one profile.
 The __str__ method defines how the user profile object should be represented as a string.
 
 """
-
 
 # Review Model
 
@@ -72,7 +70,6 @@ class Review(models.Model):
     def __str__(self):
         return f"{self.club} ({self.rating})"
 
-
 # Booking Model
 class Booking(models.Model):
     user = models.ForeignKey(UserProfile, on_delete=models.CASCADE)
@@ -82,4 +79,3 @@ class Booking(models.Model):
 
     def __str__(self):
         return f"Booking by {self.user.user.username} for {self.event.name}"
-
