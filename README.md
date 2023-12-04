@@ -45,29 +45,36 @@ The project is open to future enhancements to enrich the user experience:
    - Follow the instructions on the [MongoDB website](https://www.mongodb.com/try/download/community) to install MongoDB on your system.
 
 2. **Install pymongo and Djongo**:
-
+   
+```bash
    pip install pymongo
    
    pip install Django djongo
-
+```
 
 3. **Install Virtual Environment**:
 
+```bash
    pip install virtualenv
 
    virtualenv venv
+```
 
    Windows
 
+```bash
    venv\Scripts\activate
-
+```
+   
    MacOS
 
+```bash
    source venv/bin/activate
-
+```
 
 4. **Install Required Packages**:
 
+```bash
    pip install wheel
 
    pip install django
@@ -76,20 +83,25 @@ The project is open to future enhancements to enrich the user experience:
    
    pip install mysqlclient
 
-   pip install BeautifulSoup4
+   pip install beautifulsoup4
+```
 
 6. **Create Database Tables**:
 
+```bash
    python manage.py makemigrations
+```
 
+```bash
    python manage.py migrate
+```
 
 7. **Run the Server**:
 
-
+```bash
    python manage.py runserver 
+```
 
-   python manage.py runserver
 
 Now, you should be able to access the application at `http://localhost:8000`.
 
