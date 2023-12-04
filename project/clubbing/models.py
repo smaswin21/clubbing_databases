@@ -1,5 +1,3 @@
-
-
 # Create your models here.
 from django.db import models
 from django.contrib.auth.models import User
@@ -11,6 +9,7 @@ class City(models.Model):
     def __str__(self):
         return self.city_name
 
+
 # Club Model
 class Club(models.Model):
     city = models.ForeignKey(City, on_delete=models.CASCADE)
@@ -21,6 +20,13 @@ class Club(models.Model):
 
     def __str__(self):
         return self.name
+
+"""
+The city field is a foreign key that references the City model, 
+indicating that each club belongs to a particular city. 
+The name, address, contact_info, and type fields store additional information about the club.
+The __str__ method defines how the club object should be represented as a string.
+"""
 
 # Event Model
 class Event(models.Model):
@@ -40,6 +46,17 @@ class UserProfile(models.Model):
 
     def __str__(self):
         return self.user.username
+
+""" 
+
+This code defines a model named UserProfile to represent user profiles in the application. 
+The user field is a one-to-one relationship that references the 
+User model from Django's authentication system. 
+This means that each user can have one and only one profile. 
+The __str__ method defines how the user profile object should be represented as a string.
+
+"""
+
 
 # Review Model
 
