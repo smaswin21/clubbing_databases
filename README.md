@@ -98,19 +98,9 @@ This will initiate the web scraping process and populate the database with the l
 
 ## 📁 Project Structure
 
-databases_project/
-├── Clubs_Scraping/
-│   ├── Various HTML files for club data
-├── project/
-│   ├── clubbing/
-│   │   ├── models.py
-│   │   ├── views.py
-│   │   ├── ...
-│   ├── manage.py
-│   ├── ...
-├── scrapingMadrid.py
-├── scrapingNightlife.py
-└── segovia.sql
+
+<img width="245" alt="Screenshot 2023-12-05 at 00 41 31" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/16f80d99-5683-4a88-9024-600640ac90c3">
+
 
 
 ## 🚀 Usage
