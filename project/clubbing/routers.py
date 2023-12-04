@@ -20,3 +20,5 @@ class MongoDBRouter:
         if app_label in self.route_app_labels:
             return db == 'mongodb'
         return None
+
+
