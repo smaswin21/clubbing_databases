@@ -52,56 +52,71 @@ The project is open to future enhancements to enrich the user experience:
 
 3. **Install Virtual Environment**:
 
-pip install virtualenv
+   pip install virtualenv
 
-virtualenv venv
+   virtualenv venv
 
 Windows
 
-venv\Scripts\activate
+   venv\Scripts\activate
 
 MacOS
 
-source venv/bin/activate
+   source venv/bin/activate
 
 
 4. **Install Required Packages**:
 
-pip install wheel
+   pip install wheel
 
-pip install django
+   pip install django
 
-pip install mysqlclient
+   pip install mysqlclient
 
 5. **Create Database Tables**:
 
-python manage.py makemigrations
+   python manage.py makemigrations
 
-python manage.py migrate
+   python manage.py migrate
 
 6. **Run the Server**:
 
-python manage.py runserver
+   python manage.py runserver 
 
 Now, you should be able to access the application at `http://localhost:8000`.
 
 This will initiate the web scraping process and populate the database with the latest clubbing information.
 
+
+
 ## 📁 Project Structure
 
 databases_project/
 ├── Clubs_Scraping/
-│ ├── Various HTML files for club data
+│   ├── Various HTML files for club data
 ├── project/
-│ ├── clubbing/
-│ │ ├── models.py
-│ │ ├── views.py
-│ │ ├── ...
-│ ├── manage.py
-│ ├── ...
+│   ├── clubbing/
+│   │   ├── models.py
+│   │   ├── views.py
+│   │   ├── ...
+│   ├── manage.py
+│   ├── ...
 ├── scrapingMadrid.py
 ├── scrapingNightlife.py
 └── segovia.sql
+
+
+## 🚀 Usage
+
+This section includes images for our project.
+
+Example:
+
+```markdown
+![Django Administration Events](images/Events.png "Django Admin Events Page")
+![Django Administration Clubs](images/Clubs.png "Django Admin Clubs Page")
+![Terminal Output](images/Django.png "Terminal Output")
+
 
 ## 👥 Contributing
 Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request.
