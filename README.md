@@ -112,9 +112,37 @@ This will initiate the web scraping process and populate the database with the l
 ## 📁 Project Structure
 
 
-<img width="245" alt="Screenshot 2023-12-05 at 00 41 31" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/16f80d99-5683-4a88-9024-600640ac90c3">
-
-
+``` css
+Clubs_Scraping/
+├── images/
+└── project/
+├── clubbing/
+│ ├── pycache/
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── routers.py
+│ ├── tests.py
+│ └── views.py
+└── project/
+├── pycache/
+├── asgi.py
+├── settings.py
+├── urls.py
+├── wsgi.py
+├── events.py
+├── manage.py
+├── mapping.py
+├── queryMongo.py
+├── venv/
+│ ├── kapital.py
+│ └── MongoReview.py
+├── README.md
+├── scrapingMadrid.py
+├── scrapingNightlife.py
+└── segovia.sql
+```
 
 ## 🚀 Usage
 
