@@ -1,7 +1,7 @@
 # Clubbing in Madrid: A Comprehensive Guide to the City's Nightlife 🌃💃
 
 ## 🌟 Project Overview
-This project, developed by us, is a comprehensive guide to the vibrant clubbing scene in Madrid. It offers detailed insights into various clubs, events, and nightlife experiences in the city, making it an essential resource for party-goers and nightlife enthusiasts.
+This project, focused on backend to understand the role of databases is developed by us servers as a comprehensive guide to the vibrant clubbing scene in Madrid. It offers detailed insights into various clubs, events, and nightlife experiences in the city, making it an essential resource for party-goers and nightlife enthusiasts.
 
 ### Key Features:
 - 🎉 Detailed information on popular clubs in Madrid.
@@ -45,58 +45,63 @@ The project is open to future enhancements to enrich the user experience:
    - Follow the instructions on the [MongoDB website](https://www.mongodb.com/try/download/community) to install MongoDB on your system.
 
 2. **Install pymongo and Djongo**:
-
+   
+```bash
    pip install pymongo
    
    pip install Django djongo
-
+```
 
 3. **Install Virtual Environment**:
 
+```bash
    pip install virtualenv
 
    virtualenv venv
+```
 
    Windows
 
+```bash
    venv\Scripts\activate
-
+```
+   
    MacOS
 
+```bash
    source venv/bin/activate
-
+```
 
 4. **Install Required Packages**:
 
+```bash
    pip install wheel
-<<<<<<< HEAD
 
    pip install django
 
-=======
-   
    pip install django
    
->>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
    pip install mysqlclient
 
-5. **Create Database Tables**:
+   pip install beautifulsoup4
+```
 
+6. **Create Database Tables**:
+
+```bash
    python manage.py makemigrations
-<<<<<<< HEAD
+```
 
-=======
-   
->>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
+```bash
    python manage.py migrate
+```
 
-6. **Run the Server**:
+7. **Run the Server**:
 
-<<<<<<< HEAD
+```bash
    python manage.py runserver 
-=======
-   python manage.py runserver
->>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
+```
+
 
 Now, you should be able to access the application at `http://localhost:8000`.
 
@@ -106,35 +111,59 @@ This will initiate the web scraping process and populate the database with the l
 
 ## 📁 Project Structure
 
-databases_project/
-├── Clubs_Scraping/
-│   ├── Various HTML files for club data
-├── project/
-│   ├── clubbing/
-│   │   ├── models.py
-│   │   ├── views.py
-│   │   ├── ...
-│   ├── manage.py
-│   ├── ...
+
+``` css
+Clubs_Scraping/
+├── images/
+└── project/
+├── clubbing/
+│ ├── pycache/
+│ ├── migrations/
+│ ├── admin.py
+│ ├── apps.py
+│ ├── models.py
+│ ├── routers.py
+│ ├── tests.py
+│ └── views.py
+└── project/
+├── pycache/
+├── asgi.py
+├── settings.py
+├── urls.py
+├── wsgi.py
+├── events.py
+├── manage.py
+├── mapping.py
+├── queryMongo.py
+├── venv/
+│ ├── kapital.py
+│ └── MongoReview.py
+├── README.md
 ├── scrapingMadrid.py
 ├── scrapingNightlife.py
 └── segovia.sql
+```
 
-
-<<<<<<< HEAD
 ## 🚀 Usage
 
 This section includes images for our project.
 
-Example:
+<img width="1505" alt="Screenshot 2023-12-04 at 23 11 23" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/b92b0c35-2a52-44e8-a587-1795096e6f47">
 
-```markdown
-![Django Administration Events](images/Events.png "Django Admin Events Page")
-![Django Administration Clubs](images/Clubs.png "Django Admin Clubs Page")
-![Terminal Output](images/Django.png "Terminal Output")
+<img width="1189" alt="Screenshot 2023-12-04 at 23 11 09" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/6f4328e8-982c-47ef-941e-9298f7dd788b">
 
-=======
->>>>>>> 6cd12d02328aeeb7ee5920727ff23b2e4348c8ca
+<img width="1194" alt="Screenshot 2023-12-04 at 22 45 22" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/cc3e23e9-e2f9-4a1c-a7a7-c17698cd89f8">
+
+<img width="1502" alt="Screenshot 2023-12-04 at 22 45 10" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/f7d463db-cf8c-47f6-85a9-234ce310674e">
+
+
+## 📁 Scraped Resources
+
+https://www.esmadrid.com/en/madrid-nightlife
+
+https://nightlifemadrid.com/
+
+
 ## 👥 Contributing
 Contributions are welcome! If you have suggestions or find a bug, please open an issue or submit a pull request.
 
