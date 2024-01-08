@@ -148,6 +148,8 @@ Clubs_Scraping/
 
 This section includes images for our project.
 
+You can use this link to download the scraped data and run the files - https://drive.google.com/drive/folders/1MpWk-N62uHAvmvDLA5dpkdQN38Eu_epm?usp=sharing
+
 <img width="1505" alt="Screenshot 2023-12-04 at 23 11 23" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/b92b0c35-2a52-44e8-a587-1795096e6f47">
 
 <img width="1189" alt="Screenshot 2023-12-04 at 23 11 09" src="https://github.com/smaswin21/clubbing_databases/assets/130904493/6f4328e8-982c-47ef-941e-9298f7dd788b">
